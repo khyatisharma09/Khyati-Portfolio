@@ -7,7 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import Image from "next/image";
-import peeps from "../public/peeps-avatar-alpha.png";
+import peeps from "../public/peep-avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
@@ -104,7 +104,7 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-400">Design tools I use</h4>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="text-gray-800 py-1">Wordpress</p>
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} alt="" className="relative left-1/3"/>
@@ -115,9 +115,9 @@ export default function Home() {
                 Programming basics as an undergrad.
               </p>
               <h4 className="py-4 text-teal-400">Languages I use for programming</h4>
-              <p className="text-gray-800 py-1">C</p>
-              <p className="text-gray-800 py-1">C++</p>
+              <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">C++</p>
               <p className="text-gray-800 py-1">Javascript</p>
               {/* <p className="text-gray-800 py-1">C++</p> */}
             </div>
@@ -206,7 +206,7 @@ export default function Home() {
           <div className="p-5 rounded-md">
             <p className="text-center dark:text-white font-bold">
               <span>
-                <a href="#footer">Rajeev Krishna</a>
+                <a href="#footer">Om Javia</a>
               </span>
               ©2023
             </p>
