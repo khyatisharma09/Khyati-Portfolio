@@ -44,7 +44,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold"
-                  href="https://drive.google.com/file/d/15V1nL_uioOhEuiFRXgWgJn7Oa9l4yT5w/view?usp=sharing"
+                  href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:c046157e-93dd-4d9f-8c0e-061f846fdcf6"
                 >
                   Resume
                 </a>
