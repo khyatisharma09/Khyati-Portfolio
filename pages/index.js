@@ -11,12 +11,8 @@ import peeps from "../public/peep-avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import Calendar from "../public/CalendarDesign.png";
+import Html from "../public/Html.png";
 import SignUp from "../public/SignUp.png";
-import LandingPage from "../public/LandingPage.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -56,10 +52,10 @@ export default function Home() {
               Om Javia
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Frontend Developer and a Student
+              Full Stack Developer and a Students
             </h3>
             <p className="text-md py-8 leading-7 text-gray-500 md:text-xl max-w-lg mx-auto">
-              I am a Frontend Developer who has a keen knowledge of HTML, CSS
+              I am a Full Stack Developer who has a keen knowledge of HTML, CSS
               and Javascript. Also hands-on experience of SCSS/SASS and
               TailwindCSS as I have projects based on that domain. Currently
               learning ReactJs, Also this portfolio is the part on the same with
@@ -87,7 +83,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Skills I offer </h3>
             <p className="text-md py-2 leading-7 text-gray-400">
               Since the beginning of my college studies I had started as a
-              Frontend Developer and I have been making clone of{" "}
+              Full Stack Developer and I have been making clone of{" "}
               <span className="text-teal-400">certain websites.</span>
               <br />I offer a wide range of services, including design and
               programming.
@@ -102,7 +98,7 @@ export default function Home() {
               <p className="py-2">
                 Elegant designs suited for your needs and design theory.
               </p>
-              <h4 className="py-4 text-teal-400">Design tools I use</h4>
+              <h4 className="py-4 text-teal-400">Design tools </h4>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Wordpress</p>
             </div>
@@ -114,7 +110,7 @@ export default function Home() {
               <p className="py-2">
                 Programming basics as an undergrad.
               </p>
-              <h4 className="py-4 text-teal-400">Languages I use for programming</h4>
+              <h4 className="py-4 text-teal-400">Programming Languages</h4>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">C++</p>
@@ -129,7 +125,7 @@ export default function Home() {
               <p className="py-2">
                 The Design being implemented as proper website.
               </p>
-              <h4 className="py-4 text-teal-400">Lirbraries and Frameworks I use</h4>
+              <h4 className="py-4 text-teal-400">Lirbraries and Frameworks</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Next</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
@@ -142,7 +138,7 @@ export default function Home() {
             <div>
               <p className="text-md py-2 leading-7 text-gray-400">
                 Since the beginning of my college studies I had started as a
-                Frontend Developer and i have been making clone of{" "}
+                Full Stack Developer and i have been making clone of{" "}
                 <span className="text-teal-400">certain websites.</span>
                 <br />I offer a wide range of services, including design and
                 programming.
@@ -151,12 +147,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <a href="https://radzhiv25.github.io/Projects/Calendar/index.html">
+              <a href="https://omjavia.github.io/portfolio/">
               <Image
-                src={Calendar}
+                src={Html}
                 className="rounded-lg object-cover border"
-                width={"100%"}
-                height={"100%"}
+                width={"1000000000000px"}
+                height={"1000000000px"}
                 layout="responsive" alt="" />
               </a>
             </div>
@@ -164,41 +160,9 @@ export default function Home() {
               <Image
                 src={SignUp}
                 className="rounded-lg object-cover border"
-                width={"100%"}
-                height={"100%"}
+                width={"100px"}
+                height={"100px"}
                 layout="responsive" alt=""/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={LandingPage}
-                className="rounded-lg object-cover border"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="" />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="" />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="" />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web6}
-                className="rounded-lg object-cover border"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="" />
             </div>
           </div>
         </section>
