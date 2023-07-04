@@ -12,6 +12,7 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
+import anvil from "../public/anvil.png"
 import SignUp from "../public/SignUp.png";
 import { useState } from "react";
 import NextLink from "next/link";
@@ -39,8 +40,8 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold"
-                  href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:c046157e-93dd-4d9f-8c0e-061f846fdcf6"
+                  className="bg-gradient-to-r from-red-600 to-blue-600 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold"
+                  href="https://drive.google.com/uc?export=download&id=1wYiWHJ5R-BzxiQ6_rswHCFuAe_wGhQfu"
                 >
                   Resume
                 </a>
@@ -48,7 +49,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center mt-10 p-10">
-            <h2 className="text-6xl py-2 text-teal-600 font-medium md:text-6xl">
+            <h2 className="text-6xl py-2 text-blue-500 font-medium md:text-6xl">
               Om Javia
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
@@ -74,7 +75,7 @@ export default function Home() {
             </a>
             {/* <AiFillInstagram className= 'hover:text-pink-600'/> */}
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-blue-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={peeps} layout="fill" alt=""/>
           </div>
         </section>
@@ -84,7 +85,7 @@ export default function Home() {
             <p className="text-md py-2 leading-7 text-gray-400">
               Since the beginning of my college studies I had started as a
               Full Stack Developer and I have been making clone of{" "}
-              <span className="text-teal-400">certain websites.</span>
+              <span className="text-red-400">certain websites.</span>
               <br />I offer a wide range of services, including design and
               programming.
             </p>
@@ -101,6 +102,8 @@ export default function Home() {
               <h4 className="py-4 text-teal-400">Design tools </h4>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Wordpress</p>
+              <p className="text-gray-800 py-1">VS Code</p>
+              <p className="text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} alt="" className="relative left-1/3"/>
@@ -112,7 +115,7 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-400">Programming Languages</h4>
               <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">HTML</p>
               <p className="text-gray-800 py-1">C++</p>
               <p className="text-gray-800 py-1">Javascript</p>
               {/* <p className="text-gray-800 py-1">C++</p> */}
@@ -127,8 +130,9 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-400">Lirbraries and Frameworks</h4>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Next</p>
+              <p className="text-gray-800 py-1">Next.js</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
+              <p className="text-gray-800 py-1">Anvil</p>
             </div>
           </div>
         </section>
@@ -139,7 +143,7 @@ export default function Home() {
               <p className="text-md py-2 leading-7 text-gray-400">
                 Since the beginning of my college studies I had started as a
                 Full Stack Developer and i have been making clone of{" "}
-                <span className="text-teal-400">certain websites.</span>
+                <span className="text-red-500">certain websites.</span>
                 <br />I offer a wide range of services, including design and
                 programming.
               </p>
@@ -151,8 +155,8 @@ export default function Home() {
               <Image
                 src={Html}
                 className="rounded-lg object-cover border"
-                width={"1000000000000px"}
-                height={"1000000000px"}
+                width={"100%"}
+                height={"100%"}
                 layout="responsive" alt="" />
               </a>
             </div>
@@ -163,6 +167,16 @@ export default function Home() {
                 width={"100px"}
                 height={"100px"}
                 layout="responsive" alt=""/>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://physicon-360.anvil.app/">
+              <Image
+                src={anvil}
+                className="rounded-lg object-cover border"
+                width={"1000000000000px"}
+                height={"1000000000px"}
+                layout="responsive" alt="" />
+              </a>
             </div>
           </div>
         </section>
