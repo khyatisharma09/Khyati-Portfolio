@@ -12,7 +12,8 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
-import anvil from "../public/anvil.png"
+import anvil from "../public/anvil.png";
+import tesla from "../public/tesla.png";
 import SignUp from "../public/SignUp.png";
 import { useState } from "react";
 import NextLink from "next/link";
@@ -48,7 +49,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center mt-10 p-10">
+          <div className="text-center mt-10 npmp-10">
             <h2 className="text-6xl py-2 text-blue-500 font-medium md:text-6xl">
               Om Javia
             </h2>
@@ -172,6 +173,16 @@ export default function Home() {
               <a href="https://physicon-360.anvil.app/">
               <Image
                 src={anvil}
+                className="rounded-lg object-cover border"
+                width={"1000000000000px"}
+                height={"1000000000px"}
+                layout="responsive" alt="" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://tesla-552544.webflow.io/">
+              <Image
+                src={tesla}
                 className="rounded-lg object-cover border"
                 width={"1000000000000px"}
                 height={"1000000000px"}
