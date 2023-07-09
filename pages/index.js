@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillBrightnessLowFill } from "react-icons/bs"
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -105,6 +106,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Wordpress</p>
               <p className="text-gray-800 py-1">VS Code</p>
               <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="text-gray-800 py-1">Webflow</p>
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} alt="" className="relative left-1/3"/>
@@ -119,6 +121,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">HTML</p>
               <p className="text-gray-800 py-1">C++</p>
               <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Java</p>
               {/* <p className="text-gray-800 py-1">C++</p> */}
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
@@ -134,6 +137,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Next.js</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
               <p className="text-gray-800 py-1">Anvil</p>
+              <p className="text-gray-800 py-1">Three.js</p>
             </div>
           </div>
         </section>
