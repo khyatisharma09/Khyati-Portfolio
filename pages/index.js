@@ -15,6 +15,7 @@ import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
 import anvil from "../public/anvil.png";
 import tesla from "../public/tesla.png";
+import Ai from "../public/Ai.png"
 import SignUp from "../public/SignUp.png";
 import { useState } from "react";
 import NextLink from "next/link";
@@ -32,7 +33,7 @@ export default function Home() {
       <main className="bg-white p-5 md:px-20 lg:px-40 dark:bg-black">
         <section id="footer" className=" min-h-screen">
           <nav className="p-10 flex justify-between rounded-md">
-            <h1 className="text-2xl font-semibold dark:text-white">Om Javia</h1>
+            <h1 className="text-2xl font-burtons dark:text-white">Om Javia</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -154,14 +155,24 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-12 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <a href="https://omjavia.github.io/portfolio/">
               <Image
                 src={Html}
                 className="rounded-lg object-cover border"
-                width={"100%"}
-                height={"100%"}
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt="" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://tesla-552544.webflow.io/">
+              <Image
+                src={tesla}
+                className="rounded-lg object-cover border"
+                width={"100px"}
+                height={"100px"}
                 layout="responsive" alt="" />
               </a>
             </div>
@@ -178,20 +189,18 @@ export default function Home() {
               <Image
                 src={anvil}
                 className="rounded-lg object-cover border"
-                width={"1000000000000px"}
-                height={"1000000000px"}
+                width={"100px"}
+                height={"100px"}
                 layout="responsive" alt="" />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://tesla-552544.webflow.io/">
               <Image
-                src={tesla}
+                src={Ai}
                 className="rounded-lg object-cover border"
-                width={"1000000000000px"}
-                height={"1000000000px"}
-                layout="responsive" alt="" />
-              </a>
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt=""/>
             </div>
           </div>
         </section>
