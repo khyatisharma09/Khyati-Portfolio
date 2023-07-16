@@ -33,7 +33,7 @@ export default function Home() {
       <main className="bg-white p-5 md:px-20 lg:px-40 dark:bg-black">
         <section id="footer" className=" min-h-screen">
           <nav className="p-10 flex justify-between rounded-md">
-            <h1 className="text-2xl font-burtons dark:text-white">Om Javia</h1>
+            <h1 className="text-2xl  font-bold dark:text-white">Om Javia</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
