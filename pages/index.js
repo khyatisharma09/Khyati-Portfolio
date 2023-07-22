@@ -17,6 +17,7 @@ import anvil from "../public/anvil.png";
 import tesla from "../public/tesla.png";
 import Ai from "../public/Ai.png"
 import SignUp from "../public/SignUp.png";
+import Zoo from "../public/Zoo.png";
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -175,6 +176,14 @@ export default function Home() {
                 height={"100px"}
                 layout="responsive" alt="" />
               </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                src={Zoo}
+                className="rounded-lg object-cover border"
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt="" />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
