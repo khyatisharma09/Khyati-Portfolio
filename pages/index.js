@@ -87,7 +87,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Skills I offer </h3>
             <p className="text-md py-2 leading-7 text-gray-400">
-              Since the beginning of my college studies I had started as a
+              Since the beginning of my college I had started as a
               Full Stack Developer and I have been making clone of{" "}
               <span className="text-red-400">certain websites.</span>
               <br />I offer a wide range of services, including design and
