@@ -71,7 +71,7 @@ export default function Home() {
             <a href="https://twitter.com/OmJavia1">
               <AiFillTwitterCircle className="hover:text-blue-700 cursor-pointer" />
             </a>
-            <a href="https://www.linkedin.com/in/om-javia-360178175/">
+            <a href="https://www.linkedin.com/in/om-javia/">
               <AiFillLinkedin className="hover:text-blue-700" />
             </a>
             <a href="https://github.com/omjavia">
