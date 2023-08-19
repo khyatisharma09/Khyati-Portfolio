@@ -12,12 +12,8 @@ import peeps from "../public/peep-avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import Html from "../public/Html.jpg";
-import anvil from "../public/anvil.png";
+import Html from "../public/Html.png";
 import swastika from "../public/swastika.png";
-import Ai from "../public/Ai.png"
-import SignUp from "../public/SignUp.png";
-import Zoo from "../public/Zoo.png";
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -176,16 +172,7 @@ export default function Home() {
                 layout="responsive" alt="" />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <a href="https://physicon-360.anvil.app/">
-              <Image
-                src={anvil}
-                className="rounded-lg object-cover border"
-                width={"100px"}
-                height={"100px"}
-                layout="responsive" alt="" />
-              </a>
-            </div>
+            
           </div>
         </section>
         <section>
