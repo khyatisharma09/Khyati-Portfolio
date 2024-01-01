@@ -14,6 +14,7 @@ import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
 import swastika from "../public/swastika.png";
+import anvil from "../public/anvil.png";
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -52,14 +53,14 @@ export default function Home() {
               Khyati Sharma
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Full Stack Developer and a Students
+              Full Stack Developer 
             </h3>
             <p className="text-md py-8 leading-7 text-gray-500 md:text-xl max-w-lg mx-auto">
-              I am a Full Stack Developer who has a keen knowledge of HTML, CSS
-              and Javascript. Also hands-on experience of SCSS/SASS and
-              TailwindCSS as I have projects based on that domain. Currently
-              learning ReactJs, Also this portfolio is the part on the same with
-              Nextjs which is a react based fullstack framework.
+             I am Khyati Sharma, a computer science student and a passionate full stack developer.
+             I am adept at creating innovative technique and also have good command over problem solving.
+             I am detailed oriented and high energy individual with strong planning and organizational skills.
+             I have created various projects using different technologies and also have relevant experience in various domain
+             including software testing, web development etc.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-10 text-gray-500">
@@ -82,12 +83,17 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Skills I offer </h3>
             <p className="text-md py-2 leading-7 text-gray-400">
-              Since the beginning of my college studies I had started as a
-              Full Stack Developer and I have been making clone of{" "}
+              I offer various skills which include various programming languages, 
+              frameworks and tools. With the help of these skills I am able to make{" "}
               <span className="text-red-400">certain websites.</span>
-              <br />I offer a wide range of services, including design and
-              programming.
+              <br />I offer a wide range of services, including design
+              programming and Data Visualization.
             </p>
+            <br></br>
+            <a className="font-bolder bg-gradient-to-r from-rose-700 to-rose-500 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold shadow-md dar:shadow-slate-400"
+                  href="https://cal.com/khyatisharma">
+                  Schedule a Meeting
+                </a>
           </div>
           <div className="lg:flex gap-10 text-center">
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
@@ -100,12 +106,11 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-400">Design tools </h4>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Wordpress</p>
+              <p className="text-gray-800 py-1">WordPress</p>
               <p className="text-gray-800 py-1">VS Code</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
               <p className="text-gray-800 py-1">Webflow</p>
-            </div>
-            <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
+             </div>
+             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} alt="" className="relative left-1/3"/>
               <h3 className="text-lg font-medium pt-5 pb-2 ">
                 Programming
@@ -115,10 +120,10 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-400">Programming Languages</h4>
               <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">C++</p>
-              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">C</p>
               <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">HTML, CSS & JS</p>
+              <p className="text-gray-800 py-1">Solidity</p>
               {/* <p className="text-gray-800 py-1">C++</p> */}
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
@@ -129,12 +134,12 @@ export default function Home() {
               <p className="py-2">
                 The Design being implemented as proper website.
               </p>
-              <h4 className="py-4 text-teal-400">Lirbraries and Frameworks</h4>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Next.js</p>
+              <h4 className="py-4 text-teal-400">Frameworks, Databases and Tools</h4>
               <p className="text-gray-800 py-1">TailwindCSS</p>
+              <p className="text-gray-800 py-1">Next.js</p>
+              <p className="text-gray-800 py-1">Power BI</p>
               <p className="text-gray-800 py-1">Anvil</p>
-              <p className="text-gray-800 py-1">Three.js</p>
+              <p className="text-gray-800 py-1">SQL</p>
             </div>
           </div>
         </section>
@@ -143,11 +148,11 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
             <div>
               <p className="text-md py-2 leading-7 text-gray-400">
-                Since the beginning of my college studies I had started as a
-                Full Stack Developer and i have been making clone of{" "}
-                <span className="text-red-500">certain websites.</span>
-                <br />I offer a wide range of services, including design and
-                programming.
+                From the initial years of my college I had started working
+                on  Frontend projects and tried to clone{" "}
+                <span className="text-red-500">few websites.</span>
+                <br />I offer a wide range of services including design,
+                programming and Data Visualization.
               </p>
             </div>
           </div>
@@ -163,9 +168,19 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://swastika-clone-220cff.webflow.io/">
+              <a href="https://tradingo-950c73.webflow.io/api-page">
               <Image
                 src={swastika}
+                className="rounded-lg object-cover border"
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt="" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://health-is-wealth.anvil.app/">
+              <Image
+                src={anvil}
                 className="rounded-lg object-cover border"
                 width={"100px"}
                 height={"100px"}
