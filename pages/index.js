@@ -13,8 +13,10 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
-import swastika from "../public/swastika.png";
-import anvil from "../public/anvil.png";
+import Tradingo from "../public/Tradingo.png";
+import Anvil1 from "../public/Anvil1.png";
+import sunshinedashboard from "../public/sunshinedashboard.png";
+import storedashboard from "../public/storedashboard.png";
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -42,7 +44,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-red-600 to-blue-600 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold"
-                  href="https://drive.google.com/uc?export=download&id=1idlMcrgjANJyMJrTufORMfzoyK8FTQah">
+                  href="https://drive.google.com/uc?export=download&id=1HvualRoW2fX4jg_hkERWQynpg_GYtG7Q">
                   Resume
                 </a>
               </li>
@@ -170,7 +172,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://tradingo-950c73.webflow.io/api-page">
               <Image
-                src={swastika}
+                src={Tradingo}
                 className="rounded-lg object-cover border"
                 width={"100px"}
                 height={"100px"}
@@ -180,7 +182,27 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://health-is-wealth.anvil.app/">
               <Image
-                src={anvil}
+                src={Anvil1}
+                className="rounded-lg object-cover border"
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt="" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://docs.google.com/spreadsheets/d/1CUbewGyJ8YU3iNOwJbzbHbYyGrjMJlwP/edit#gid=2119296955">
+              <Image
+                src={storedashboard}
+                className="rounded-lg object-cover border"
+                width={"100px"}
+                height={"100px"}
+                layout="responsive" alt="" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://drive.google.com/file/d/1mHXMwZY1IqAyEVg0BiX8idBzfwRr8ZVb/view?usp=sharing">
+              <Image
+                src={sunshinedashboard}
                 className="rounded-lg object-cover border"
                 width={"100px"}
                 height={"100px"}
