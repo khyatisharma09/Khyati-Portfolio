@@ -15,8 +15,9 @@ import consulting from "../public/consulting.png";
 import Html from "../public/Html.png";
 import Tradingo from "../public/Tradingo.png";
 import Anvil1 from "../public/Anvil1.png";
-import sunshinedashboard from "../public/sunshinedashboard.png";
-import storedashboard from "../public/storedashboard.png";
+import imagem from "../public/imagem.png";
+import str from "../public/str.jpeg";
+import ss from "../public/ss.png"  ;
 import { useState } from "react";
 import NextLink from "next/link";
 
@@ -44,7 +45,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-red-600 to-blue-600 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold"
-                  href="https://drive.google.com/uc?export=download&id=1HvualRoW2fX4jg_hkERWQynpg_GYtG7Q">
+                  href="https://drive.google.com/uc?export=download&id=1pTyLMEGQBCThxhMGNsrZF9b_s_L2P0GU">
                   Resume
                 </a>
               </li>
@@ -64,7 +65,13 @@ export default function Home() {
              I have created various projects using different technologies and also have relevant experience in various domain
              including software testing, web development etc.
             </p>
+            
+            <a className="font-bolder bg-gradient-to-r from-rose-700 to-rose-500 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold shadow-md dar:shadow-slate-400"
+                  href="https://cal.com/khyatisharma">
+                  Schedule a Meeting
+                </a>
           </div>
+          <br></br>
           <div className="text-5xl flex justify-center gap-10 text-gray-500">
             <a href="https://twitter.com/KhyatiS82839495">
               <AiFillTwitterCircle className="hover:text-blue-700 cursor-pointer" />
@@ -77,8 +84,67 @@ export default function Home() {
             </a>
             {/* <AiFillInstagram className= 'hover:text-pink-600'/> */}
           </div>
+          
           <div className="relative mx-auto bg-gradient-to-b from-blue-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={peeps} layout="fill" alt=""/>
+          </div>
+        </section>
+        <section className="mt-10">
+        <div>
+        <h3 className="text-3xl font-semibold py-1 dark:text-white">About Me </h3>
+              <p className="text-md py-2 leading-7 text-gray-400">
+                Lost in the symphony of circuits and code, I am{" "}
+                <span className="text-blue-600 dark:text-amber-300">Khyati Sharma</span> {" "}
+                a digital voyager navigating the boundless realms of cyberspace with boundless fascination.
+              </p>
+            </div>
+          <div className="lg:grid grid-cols-3 gap-10 text-center">
+          <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-slate-900 hover:scale-105">
+              <Image src={str} width={100} height={100} alt="" className="mx-auto"/>
+              <h3 className="text-lg font-medium pt-5 pb-2 dark:text-amber-300">
+                Higher Education
+              </h3>
+              <p className="py-2 dark:text-teal-50">
+                Class 10th  
+              </p>
+              <p className="py-2 dark:text-teal-50">
+                CBSE
+              </p>
+              <h4 className="py-4 text-blue-600 dark:text-amber-500"> The Emerald Heights International School </h4>
+              <ul className="space-y-1 dark:text-white">
+                <li>CGPA - 8.1</li>
+              </ul>
+            </div>
+            <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-slate-900 hover:scale-105">
+              <Image src={str} width={100} height={100} alt="" className="mx-auto"/>
+              <h3 className="text-xl font-medium pt-5 pb-2 dark:text-amber-300">
+                Secondary Education
+              </h3>
+              <p className="py-2 dark:text-teal-50">
+                Class 12th  
+              </p>
+              <p className="py-2 dark:text-teal-50">
+                CBSE, Science (PCM)  
+              </p>
+              <h4 className="py-4 text-blue-600 dark:text-amber-500">St Raphael's H.S. School</h4>
+              <ul className="tools space-y-1 dark:text-white" >
+              <li>CGPA - 8.1</li>
+	            </ul>
+            </div>
+            
+            <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-slate-900 hover:scale-105">
+              
+              <h3 className="text-lg font-medium pt-5 pb-2 dark:text-amber-300">
+                Senior Secondary Education
+              </h3>
+              <p className="py-2 dark:text-teal-50">
+              Bachelor of Technology (B.Tech) in Computer Science and Engineering
+              </p>
+              <h4 className="py-4 text-blue-600 dark:text-amber-500">Medi-Caps University</h4>
+              <ul className="space-y-1 dark:text-white">
+                <li>CGPA - 9</li>
+              </ul>
+            </div>
           </div>
         </section>
         <section className="mt-10">
@@ -91,11 +157,7 @@ export default function Home() {
               <br />I offer a wide range of services, including design
               programming and Data Visualization.
             </p>
-            <br></br>
-            <a className="font-bolder bg-gradient-to-r from-rose-700 to-rose-500 text-white font-bolder px-4 py-2 rounded-md ml-8 font-semibold shadow-md dar:shadow-slate-400"
-                  href="https://cal.com/khyatisharma">
-                  Schedule a Meeting
-                </a>
+
           </div>
           <div className="lg:flex gap-10 text-center">
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
@@ -125,7 +187,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">C</p>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">HTML, CSS & JS</p>
-              <p className="text-gray-800 py-1">Solidity</p>
               {/* <p className="text-gray-800 py-1">C++</p> */}
             </div>
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-white">
@@ -190,9 +251,9 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://docs.google.com/spreadsheets/d/1CUbewGyJ8YU3iNOwJbzbHbYyGrjMJlwP/edit#gid=2119296955">
+              <a href="https://github.com/khyatisharma09/Image_Matching_ToolBox">
               <Image
-                src={storedashboard}
+                src={imagem}
                 className="rounded-lg object-cover border"
                 width={"100px"}
                 height={"100px"}
@@ -202,7 +263,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://drive.google.com/file/d/1mHXMwZY1IqAyEVg0BiX8idBzfwRr8ZVb/view?usp=sharing">
               <Image
-                src={sunshinedashboard}
+                src={ss}
                 className="rounded-lg object-cover border"
                 width={"100px"}
                 height={"100px"}
