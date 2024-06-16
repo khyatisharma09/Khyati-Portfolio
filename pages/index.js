@@ -17,6 +17,7 @@ import Tradingo from "../public/Tradingo.png";
 import Anvil1 from "../public/Anvil1.png";
 import imagem from "../public/imagem.png";
 import str from "../public/str.jpeg";
+import medi from "../public/medi.jpg";
 import ss from "../public/ss.png"  ;
 import { useState } from "react";
 import NextLink from "next/link";
@@ -110,7 +111,7 @@ export default function Home() {
               <p className="py-2 dark:text-teal-50">
                 CBSE
               </p>
-              <h4 className="py-4 text-blue-600 dark:text-amber-500"> The Emerald Heights International School </h4>
+              <h4 className="py-4 text-blue-600 dark:text-amber-500"> St Raphael's H.S. School </h4>
               <ul className="space-y-1 dark:text-white">
                 <li>CGPA - 8.1</li>
               </ul>
@@ -133,7 +134,7 @@ export default function Home() {
             </div>
             
             <div className="shadow-lg p-5 rounded-xl my-10 dark:bg-slate-900 hover:scale-105">
-              
+            <Image src={medi} width={100} height={100} alt="" className="mx-auto"/>
               <h3 className="text-lg font-medium pt-5 pb-2 dark:text-amber-300">
                 Senior Secondary Education
               </h3>
@@ -279,7 +280,7 @@ export default function Home() {
               <span>
                 <a href="#footer">Khyati Sharma</a>
               </span>
-              ©2023
+              ©2024
             </p>
             <p className="mt-2 text-center dark:text-white">Created with NextJS and Tailwind 🚀</p>
           </div>
